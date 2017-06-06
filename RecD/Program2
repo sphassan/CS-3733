@@ -1,0 +1,5 @@
+fd0 = open("infile",O_RDONLY);
+fork();
+total += read(fd0,buf+total,2);
+total += read(fd0,buf+total,2);
+close(fd0);

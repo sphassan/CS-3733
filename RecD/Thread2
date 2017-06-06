@@ -1,0 +1,6 @@
+void *secondThread(void *args) {
+fd1=open("infile",O_RDONLY);
+total+=read(fd1,buf+total,5);
+close(fd1);
+return NULL;
+}

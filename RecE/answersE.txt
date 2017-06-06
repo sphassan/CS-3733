@@ -1,0 +1,9 @@
+6. Sean Hassan
+7. The sizes of getsizechild.c and getsizesthread.c were reported correctly. The total size was reported incorrectly because it didn't take into account the size of getsizeschild.c. 
+8. The total size would still be wrong, still showing the size of getsizesthread.c alone.
+9. All values were reported correctly.
+10. Without the join, the parent thread does not wait for the created and the size of getsizeschild.c is not accounted for.
+11. Answers reverted to normal after uncommenting.
+12. getsizesthread.c cannot compile without the reference, that joins the required library for pthread functions.
+13. getsizeschild works as normal. getsizesthread does not exist as it could not compile.
+14. Putting the linkage instruction back in makes it work again.

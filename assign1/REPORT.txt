@@ -1,0 +1,18 @@
+1. No colloboration.
+
+2. I think I did everything right with the exception of the heuristic to meet restrictions 3 and 4
+
+3. As said above, there are perhaps too many r's in the output
+
+4. Finnagling to get the null terminator at the end was more difficult than it should have been
+
+5. Output of fcfsa.all stats below
+
+fox01{tqs485}143: ls -l fcfsa.all 
+-rw-r--r-- 1 tqs485 students 44344515 Jan 28 23:44 fcfsa.all 
+
+fox01{tqs485}144: wc fcfsa.all  
+2000001  2000003 44344515 fcfsa.all 
+
+fox01{tqs485}145: md5sum fcfsa.all 
+3244cd0f5e0828e328b3f89279382cb0  fcfsa.all

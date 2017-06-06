@@ -1,0 +1,6 @@
+Input File Name    : input1.txt
+CPU Schedule Alg   : PR
+CPU utilization    : 29.58%
+Throughput         : 4.23
+Turnaround time    : 236.67 ms (average) 710 (total)
+Waiting time       : 103.33 ms (average) 310 (total)

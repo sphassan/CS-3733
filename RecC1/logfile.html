@@ -1,0 +1,242 @@
+<HEAD>
+<TITLE>Process Scheduling for Sean Hassan generated Tue Jan 31 11:36:03 CST 2017</TITLE>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF><H3>Process Scheduling for Sean Hassan generated Tue Jan 31 11:36:03 CST 2017</H3>
+
+<H6>Process Scheduling Simulator
+version 1.100L283 by S. Robbins 
+supported by NSF grants 
+DUE-9750953 and DUE-9752165.
+<br>See <a href=http://vip.cs.utsa.edu/nsf>http://vip.cs.utsa.edu/nsf</a> for simulator information.<br><br>
+Java version 1.7.0_121 OS Linux version 3.16.0-30-generic 14329753681
+<br></H6>
+
+<hr>
+
+<b>Configuration File:</b><br>
+logdir .<br>
+logfn logfile.html<br>
+imagename gifim<br>
+user Sean Hassan<br>
+portable true<br>
+quiet<br>
+run myrun<br>
+exp myexp<br>
+
+<hr>
+
+<b>Number of Run Files: 1</b><br>
+--------------------<br>
+name myrun<br>
+comment This contains two types of processes<br>
+algorithm SJF<br>
+seed 5000<br>
+numprocs 15<br>
+firstarrival 0.0<br>
+interarrival constant 0.0<br>
+duration uniform 10.0 15.0<br>
+cpuburst constant 10.0<br>
+ioburst uniform 10 20<br>
+basepriority 1.0<br>
+<br>
+numprocs 15<br>
+firstarrival 0.0<br>
+interarrival constant 0.0<br>
+duration constant 4.0<br>
+cpuburst constant 1.0<br>
+ioburst uniform 10.0 20.0<br>
+basepriority 1.0<br>
+
+<hr>
+
+<b>Number of Experiment Files: 1</b><br>
+--------------------<br>
+name myexp<br>
+comment This experiment contains 2 runs<br>
+run myrun algorithm FCFS key "FCFS"<br>
+run myrun algorithm SJF key "SJF"<br>
+
+<hr>
+
+<center><TABLE Border=1>
+<TR>
+<TD Align=center COLSPAN=5>Experimental Run Information for 1 Run
+</TR>
+<TR><TABLE Border=2>
+<TR COLSPAN=8>
+<TD Align=center COLSPAN=7>
+myrun: &nbsp&nbsp This contains two types of processes &nbsp&nbsp 
+Seed: 0&nbsp&nbsp Algorithm: SJF</TD></TR>
+<TR><TD Align=center>Group</TD>
+<TD Align=center>Processes</TD>
+<TD Align=center>First Arrival</TD>
+<TD Align=center>Interarrival</TD>
+<TD Align=center>Duration</TD>
+<TD Align=center>CPU Burst</TD>
+<TD Align=center>I/O Burst</TD>
+</TR>
+<TR><TD Align=center>1</TD><TD ALign=right>15</TD><TD Align=right>0.0</TD><TD>constant        0.00</TD><TD>uniform        10.00 15.00</TD><TD>constant       10.00</TD><TD>uniform        10.00 20.00</TD></TR>
+<TR><TD Align=center>2</TD><TD ALign=right>15</TD><TD Align=right>0.0</TD><TD>constant        0.00</TD><TD>constant        4.00</TD><TD>constant        1.00</TD><TD>uniform        10.00 20.00</TD></TR>
+</TABLE></TR>
+</TR></TABLE></center>
+<p><hr><p>
+
+<Center><TABLE Border=1>
+<TR>
+<TD Align=center COLSPAN=4>Experimental Runs For 1 Experiment
+</TR><TR>
+<TD Align=left>Experiment</TD>
+<TD ALign=center>Commentary</TD>
+<TD ALign=center>Run</TD>
+<TD ALign=center>Modifications</TD>
+</TR>
+<TR><TD Align=center>myexp</td>
+<TD Align=left>This experiment contains 2 runs</TD>
+<TD Align=left>myrun_1</TD>
+<TD Align=left>algorithm FCFS</TD>
+</TR>
+<TR><TD></TD><TD></TD><TD></TD><TD Align=left>key FCFS</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_2</TD>
+<TD Align=left>algorithm SJF</TD>
+</TR>
+<TR><TD></TD><TD></TD><TD></TD><TD Align=left>key SJF</TD>
+</TR>
+</TR></TABLE></center>
+
+<hr size=5>
+<H2>Starting experiment of 2 runs from myexp</H2>
+Tue Jan 31 11:36:26 CST 2017<br>
+Starting run from myrun_1<br>
+Starting to run events using FCFS<br>
+271 events done in 46 milliseconds<br>
+<br>
+Tue Jan 31 11:36:26 CST 2017<br>
+Starting run from myrun_2<br>
+Starting to run events using SJF<br>
+271 events done in 39 milliseconds<br>
+<br>
+<hr size=5>
+<p><hr>
+
+Tue Jan 31 11:37:58 CST 2017<br>
+<p>
+
+<center><TABLE Border=1>
+<TR>
+<TD COLSPAN=9></TD><TD Align=center COLSPAN=2>Entries</TD><TD align=center COLSPAN=2>Average Time</TD></TR><TR>
+<TD Align=center>Name</TD>
+<TD Align=right>Key</TD>
+<TD Align=right>Time</TD>
+<TD Align=right>Processes</TD>
+<TD Align=right>Finished</TD>
+<TD Align=right>CPU Utilization</TD>
+<TD Align=right>Throughput</TD>
+<TD Align=right>CST</TD>
+<TD Align=right>LA</TD>
+<TD Align=right>CPU</TD>
+<TD Align=right>I/O</TD>
+<TD Align=right>CPU</TD>
+<TD Align=right>I/O</TD>
+</TR>
+
+<TD Align=center>myrun_1</td>
+<TD Align=right>FCFS</TD>
+<TD Align=right>   257.05</TD>
+<TD Align=right>       30</TD>
+<TD Align=right>       30</TD>
+<TD Align=right>   .96104</TD>
+<TD Align=right>  .116711</TD>
+<TD Align=right>     0.00</TD>
+<TD Align=right>    20.59</TD>
+<TD Align=right>90</TD>
+<TD Align=right>60</TD>
+<TD Align=right>     2.74</TD>
+<TD Align=right>    15.20</TD>
+</TR>
+
+<TD Align=center>myrun_2</td>
+<TD Align=right>SJF</TD>
+<TD Align=right>   256.90</TD>
+<TD Align=right>       30</TD>
+<TD Align=right>       30</TD>
+<TD Align=right>   .96158</TD>
+<TD Align=right>  .116777</TD>
+<TD Align=right>     0.00</TD>
+<TD Align=right>    10.07</TD>
+<TD Align=right>90</TD>
+<TD Align=right>60</TD>
+<TD Align=right>     2.74</TD>
+<TD Align=right>    15.20</TD>
+</TR>
+
+</TR></TABLE></center>
+<p>
+<br>
+<center><TABLE Border=1>
+<TR>
+<TD Align=center></TD>
+<TD Align=right></TD>
+<TD Align=center COLSPAN=4>Turnaround Time</TD>
+<TD Align=center COLSPAN=4>Waiting Time</TD>
+</TR><TR>
+<TD Align=center>Name</TD>
+<TD Align=right>Key</TD>
+<TD Align=right>Average</TD>
+<TD Align=right>Minimum</TD>
+<TD Align=right>Maximum</TD>
+<TD Align=right>SD</TD>
+<TD Align=right>Average</TD>
+<TD Align=right>Minimum</TD>
+<TD Align=right>Maximum</TD>
+<TD Align=right>SD</TD></TR>
+
+<TD Align=center>myrun_1</td>
+<TD Align=right>FCFS</TD>
+<TD Align=right>   215.05</TD>
+<TD Align=right>   169.60</TD>
+<TD Align=right>   257.05</TD>
+<TD Align=right>    31.45</TD>
+<TD Align=right>   176.41</TD>
+<TD Align=right>   138.82</TD>
+<TD Align=right>   202.24</TD>
+<TD Align=right>      .66</TD>
+</TR>
+
+<TD Align=center>myrun_2</td>
+<TD Align=right>SJF</TD>
+<TD Align=right>   124.87</TD>
+<TD Align=right>    62.00</TD>
+<TD Align=right>   256.90</TD>
+<TD Align=right>    62.17</TD>
+<TD Align=right>    86.23</TD>
+<TD Align=right>    16.69</TD>
+<TD Align=right>   229.82</TD>
+<TD Align=right>     2.37</TD>
+</TR>
+
+</TR></TABLE></center>
+<hr>
+<br>
+<br>
+<hr>
+
+Tue Jan 31 11:39:34 CST 2017<br>
+<br>
+<center>
+<IMG SRC=gifim01.gif><br>
+Gantt Chart for FCFS<br>
+</center>
+
+<br>
+<hr>
+
+Tue Jan 31 11:39:48 CST 2017<br>
+<br>
+<center>
+<IMG SRC=gifim02.gif><br>
+Gantt Chart for SJF<br>
+</center>
+

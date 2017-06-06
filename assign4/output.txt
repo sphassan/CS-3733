@@ -1,0 +1,412 @@
+Output and Count:
+   0
+1
+   0   1
+   1   0
+2
+   0   1   2
+   0   2   1
+   1   0   2
+   1   2   0
+   2   0   1
+   2   1   0
+6
+   0   1   2   3
+   0   1   3   2
+   0   2   1   3
+   0   2   3   1
+   0   3   1   2
+   0   3   2   1
+   1   0   2   3
+   1   0   3   2
+   1   2   0   3
+   1   2   3   0
+   1   3   0   2
+   1   3   2   0
+   2   0   1   3
+   2   0   3   1
+   2   1   0   3
+   2   1   3   0
+   2   3   0   1
+   2   3   1   0
+   3   0   1   2
+   3   0   2   1
+   3   1   0   2
+   3   1   2   0
+   3   2   0   1
+   3   2   1   0
+24
+   0   1   2   3   4
+   0   1   2   4   3
+   0   1   3   2   4
+   0   1   3   4   2
+   0   1   4   2   3
+   0   1   4   3   2
+   0   2   1   3   4
+   0   2   1   4   3
+   0   2   3   1   4
+   0   2   3   4   1
+   0   2   4   1   3
+   0   2   4   3   1
+   0   3   1   2   4
+   0   3   1   4   2
+   0   3   2   1   4
+   0   3   2   4   1
+   0   3   4   1   2
+   0   3   4   2   1
+   0   4   1   2   3
+   0   4   1   3   2
+   0   4   2   1   3
+   0   4   2   3   1
+   0   4   3   1   2
+   0   4   3   2   1
+   1   0   2   3   4
+   1   0   2   4   3
+   1   0   3   2   4
+   1   0   3   4   2
+   1   0   4   2   3
+   1   0   4   3   2
+   1   2   0   3   4
+   1   2   0   4   3
+   1   2   3   0   4
+   1   2   3   4   0
+   1   2   4   0   3
+   1   2   4   3   0
+   1   3   0   2   4
+   1   3   0   4   2
+   1   3   2   0   4
+   1   3   2   4   0
+   1   3   4   0   2
+   1   3   4   2   0
+   1   4   0   2   3
+   1   4   0   3   2
+   1   4   2   0   3
+   1   4   2   3   0
+   1   4   3   0   2
+   1   4   3   2   0
+   2   0   1   3   4
+   2   0   1   4   3
+   2   0   3   1   4
+   2   0   3   4   1
+   2   0   4   1   3
+   2   0   4   3   1
+   2   1   0   3   4
+   2   1   0   4   3
+   2   1   3   0   4
+   2   1   3   4   0
+   2   1   4   0   3
+   2   1   4   3   0
+   2   3   0   1   4
+   2   3   0   4   1
+   2   3   1   0   4
+   2   3   1   4   0
+   2   3   4   0   1
+   2   3   4   1   0
+   2   4   0   1   3
+   2   4   0   3   1
+   2   4   1   0   3
+   2   4   1   3   0
+   2   4   3   0   1
+   2   4   3   1   0
+   3   0   1   2   4
+   3   0   1   4   2
+   3   0   2   1   4
+   3   0   2   4   1
+   3   0   4   1   2
+   3   0   4   2   1
+   3   1   0   2   4
+   3   1   0   4   2
+   3   1   2   0   4
+   3   1   2   4   0
+   3   1   4   0   2
+   3   1   4   2   0
+   3   2   0   1   4
+   3   2   0   4   1
+   3   2   1   0   4
+   3   2   1   4   0
+   3   2   4   0   1
+   3   2   4   1   0
+   3   4   0   1   2
+   3   4   0   2   1
+   3   4   1   0   2
+   3   4   1   2   0
+   3   4   2   0   1
+   3   4   2   1   0
+   4   0   1   2   3
+   4   0   1   3   2
+   4   0   2   1   3
+   4   0   2   3   1
+   4   0   3   1   2
+   4   0   3   2   1
+   4   1   0   2   3
+   4   1   0   3   2
+   4   1   2   0   3
+   4   1   2   3   0
+   4   1   3   0   2
+   4   1   3   2   0
+   4   2   0   1   3
+   4   2   0   3   1
+   4   2   1   0   3
+   4   2   1   3   0
+   4   2   3   0   1
+   4   2   3   1   0
+   4   3   0   1   2
+   4   3   0   2   1
+   4   3   1   0   2
+   4   3   1   2   0
+   4   3   2   0   1
+   4   3   2   1   0
+120
+720
+5040
+40320
+362880
+3628800
+39916800
+479001600
+
+Solutions:
+   0
+1
+0
+0
+   1   3   0   2
+   2   0   3   1
+2
+   0   2   4   1   3
+   0   3   1   4   2
+   1   3   0   2   4
+   1   4   2   0   3
+   2   0   3   1   4
+   2   4   1   3   0
+   3   0   2   4   1
+   3   1   4   2   0
+   4   1   3   0   2
+   4   2   0   3   1
+10
+   1   3   5   0   2   4
+   2   5   1   4   0   3
+   3   0   4   1   5   2
+   4   2   0   5   3   1
+4
+   0   2   4   6   1   3   5
+   0   3   6   2   5   1   4
+   0   4   1   5   2   6   3
+   0   5   3   1   6   4   2
+   1   3   0   6   4   2   5
+   1   3   5   0   2   4   6
+   1   4   0   3   6   2   5
+   1   4   2   0   6   3   5
+   1   4   6   3   0   2   5
+   1   5   2   6   3   0   4
+   1   6   4   2   0   5   3
+   2   0   5   1   4   6   3
+   2   0   5   3   1   6   4
+   2   4   6   1   3   5   0
+   2   5   1   4   0   3   6
+   2   6   1   3   5   0   4
+   2   6   3   0   4   1   5
+   3   0   2   5   1   6   4
+   3   0   4   1   5   2   6
+   3   1   6   4   2   0   5
+   3   5   0   2   4   6   1
+   3   6   2   5   1   4   0
+   3   6   4   1   5   0   2
+   4   0   3   6   2   5   1
+   4   0   5   3   1   6   2
+   4   1   5   2   6   3   0
+   4   2   0   5   3   1   6
+   4   6   1   3   5   0   2
+   4   6   1   5   2   0   3
+   5   0   2   4   6   1   3
+   5   1   4   0   3   6   2
+   5   2   0   3   6   4   1
+   5   2   4   6   0   3   1
+   5   2   6   3   0   4   1
+   5   3   1   6   4   2   0
+   5   3   6   0   2   4   1
+   6   1   3   5   0   2   4
+   6   2   5   1   4   0   3
+   6   3   0   4   1   5   2
+   6   4   2   0   5   3   1
+40
+92
+352
+724
+2680
+14200
+
+queens_thread output:
+   0
+First: 0 Solutions: 1
+1
+First: 0 Solutions: 0
+0
+First: 1 Solutions: 0
+0
+First: 0 Solutions: 0
+0
+First: 1 Solutions: 0
+0
+First: 2 Solutions: 0
+0
+First: 0 Solutions: 0
+0
+   1   3   0   2
+First: 1 Solutions: 1
+1
+   2   0   3   1
+First: 2 Solutions: 1
+1
+First: 3 Solutions: 0
+0
+   0   2   4   1   3
+   0   3   1   4   2
+First: 0 Solutions: 2
+2
+   1   3   0   2   4
+   1   4   2   0   3
+First: 1 Solutions: 2
+2
+   2   0   3   1   4
+   2   4   1   3   0
+First: 2 Solutions: 2
+2
+   3   0   2   4   1
+   3   1   4   2   0
+First: 3 Solutions: 2
+2
+   4   1   3   0   2
+   4   2   0   3   1
+First: 4 Solutions: 2
+2
+First: 0 Solutions: 0
+0
+   1   3   5   0   2   4
+First: 1 Solutions: 1
+1
+   2   5   1   4   0   3
+First: 2 Solutions: 1
+1
+   3   0   4   1   5   2
+First: 3 Solutions: 1
+1
+   4   2   0   5   3   1
+First: 4 Solutions: 1
+1
+First: 5 Solutions: 0
+0
+First: 0 Solutions: 4
+4
+First: 1 Solutions: 7
+7
+First: 2 Solutions: 6
+6
+First: 3 Solutions: 6
+6
+First: 4 Solutions: 6
+6
+First: 5 Solutions: 7
+7
+First: 6 Solutions: 4
+4
+First: 0 Solutions: 4
+4
+First: 1 Solutions: 8
+8
+First: 2 Solutions: 16
+16
+First: 3 Solutions: 18
+18
+First: 4 Solutions: 18
+18
+First: 5 Solutions: 16
+16
+First: 6 Solutions: 8
+8
+First: 7 Solutions: 4
+4
+First: 0 Solutions: 28
+28
+First: 1 Solutions: 30
+30
+First: 2 Solutions: 47
+47
+First: 3 Solutions: 44
+44
+First: 4 Solutions: 54
+54
+First: 5 Solutions: 44
+44
+First: 6 Solutions: 47
+47
+First: 7 Solutions: 30
+30
+First: 8 Solutions: 28
+28
+First: 0 Solutions: 64
+64
+First: 1 Solutions: 48
+48
+First: 2 Solutions: 65
+65
+First: 3 Solutions: 93
+93
+First: 4 Solutions: 92
+92
+First: 5 Solutions: 92
+92
+First: 6 Solutions: 93
+93
+First: 7 Solutions: 65
+65
+First: 8 Solutions: 48
+48
+First: 9 Solutions: 64
+64
+First: 0 Solutions: 96
+96
+First: 1 Solutions: 219
+219
+First: 2 Solutions: 209
+209
+First: 3 Solutions: 295
+295
+First: 4 Solutions: 346
+346
+First: 5 Solutions: 350
+350
+First: 6 Solutions: 346
+346
+First: 7 Solutions: 295
+295
+First: 8 Solutions: 209
+209
+First: 9 Solutions: 219
+219
+First: 10 Solutions: 96
+96
+First: 0 Solutions: 500
+500
+First: 1 Solutions: 806
+806
+First: 2 Solutions: 1165
+1165
+First: 3 Solutions: 1359
+1359
+First: 4 Solutions: 1631
+1631
+First: 5 Solutions: 1639
+1639
+First: 6 Solutions: 1639
+1639
+First: 7 Solutions: 1631
+1631
+First: 8 Solutions: 1359
+1359
+First: 9 Solutions: 1165
+1165
+First: 10 Solutions: 806
+806
+First: 11 Solutions: 500
+500

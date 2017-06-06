@@ -1,0 +1,6 @@
+Input File Name    : input1.txt
+CPU Schedule Alg   : RR 5
+CPU utilization    : 28.0%
+Throughput         : 4.0
+Turnaround time    : 250.0 ms (average) 750 (total)
+Waiting time       : 116.67 ms (average) 350 (total)

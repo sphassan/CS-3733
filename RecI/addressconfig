@@ -1,0 +1,8 @@
+user Sean Hassan
+logfile logfile.html
+logdir logs
+log all
+imagename im
+lifelines -1 -1
+progress do
+uniquefilename 2

@@ -1,0 +1,3 @@
+#!/bin/csh
+setenv CLASSPATH .:/home/srobbins/jars/io/IO.jar:/home/srobbins/jars/io/Jeli.jar
+java -mx64m IODriver

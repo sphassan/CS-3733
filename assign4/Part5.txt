@@ -1,0 +1,19 @@
+Synchronization was handled by placing mutex locks around the printf statements, preventing interleaving.
+
+All timing done in seconds, runs were performed on my personal machine which may have had background processes spiking at random intervals. The machine has 4 cores and supports 8 threads.
+
+n  |   Serial     | Parallel
+-------------------------------
+1  |  0.001775    | 0.007366
+2  |  0.001592    | 0.012672
+3  |  0.003814    | 0.015653
+4  |  0.005453    | 0.022675
+5  |  0.016623    | 0.041041
+6  |  0.011781    | 0.037194
+7  |  0.006812    | 0.029350
+8  |  0.008625    | 0.029457
+9  |  0.043505    | 0.048563
+10 |  0.430387    | 0.129977
+11 |  4.904793    | 1.209653
+12 |  66.417692   | 15.196514
+13 |  899.689928  | 209.492224 

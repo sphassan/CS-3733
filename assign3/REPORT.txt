@@ -1,0 +1,18 @@
+Part 3 implemented.
+
+1. Collaboration was done with Andrew Sanetra and Chris Doege. I received a small amount of help from them, mostly throwing ideas against them to see what made sense. In the process I probably gave them a moderate amount of assistance in implementing their own designs.
+
+2. I think Part 1 is entirely correct. I am unsure if Part 2 is working properly, but it at least looks like right output. Part 3 does work, in that it emulates Part 2 output perfectly.
+
+3. While I am confident in my implementation of Part 2, I didn't check to make sure all values were correct.
+
+4. Memory management was interesting, to say the least. As far as difficulty, all of it was, with the somewhat amusing exception of the extra credit.
+
+5. md5sums below
+ceabc02825a5b908e474b053074ab53c  output-part1
+c95b27848ae8d4354d87678d075001f7  output-part2
+c95b27848ae8d4354d87678d075001f7  output-part3
+
+Part 2 had 3210 page faults.
+
+I strongly believe part 3 will work in all realistic situations. It will however likely fail in extreme conditions, for instance if a value is set to 0. The program also assumes that the user only has proper input.

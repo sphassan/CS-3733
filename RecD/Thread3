@@ -1,0 +1,5 @@
+void *thirdThread(void *args) {
+fd4=open("outfile",wrflags,0777);
+write(fd4,"ABCDEFGHIJKL",5);
+return NULL;
+}

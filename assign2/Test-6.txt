@@ -1,0 +1,8 @@
+assign1 3 5 2 5 4 1 1
+Assignment 1 program was written by Sean Hassan
+inputs: 3 5 2 5 4 1 1
+
+Part 1
+RRRRRwwrrRRRRR
+rrrrrRRRRwrrrrR
+2 9 5.5 1.00000

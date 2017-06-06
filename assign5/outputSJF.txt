@@ -1,0 +1,6 @@
+Input File Name    : input1.txt
+CPU Schedule Alg   : SJF
+CPU utilization    : 27.27%
+Throughput         : 3.9
+Turnaround time    : 256.67 ms (average) 770 (total)
+Waiting time       : 123.33 ms (average) 370 (total)

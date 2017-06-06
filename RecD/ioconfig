@@ -1,0 +1,17 @@
+logdir logs
+quiet
+user Sean Hassan
+Program Program1
+program Program2
+program Program3
+program Program4
+program Program3a
+program Program3t
+program Program3ta
+program Program5
+program Program6
+program Program7
+Thread Thread1
+Thread Thread2
+Thread Thread3
+uniquefilename 2

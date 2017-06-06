@@ -1,0 +1,3 @@
+#!/bin/csh
+setenv CLASSPATH .:/home/srobbins/jars/ps/PS.jar:/home/srobbins/jars/ps/Jeli.jar
+java PS

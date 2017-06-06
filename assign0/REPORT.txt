@@ -1,0 +1,7 @@
+1. Andrew Sanetra. Small amount of collaboration. We discussed makefiles, deprecation of arrays to pointers, and general C I/O. Discussion was mostly in the form of refreshing each other and thinking aloud to reacquaint ourselves with C. Though the giving and taking was mostly equal, I would say that in the end I received more help than I gave.
+
+2. For the most part, everything should work fine for 'normal' user input.
+
+3. It probably breaks for abnormal user input and under stress testing. There are probably errors I didn't think to check.
+
+4. Dynamic allocation is always interesting to write at a low-level, so the base assignment was fun to me. Testing for the various ways the code might break was difficult, as well as thinking of how to implement full line input that doesn't care about bounds of any sort.

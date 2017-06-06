@@ -1,0 +1,10 @@
+Assignment 1 program was written by Sean Hassan
+inputs: 1 5 5 5 5 5 5
+
+Part 0
+RRwwwwwRRRRRRRRR
+rrRRRRwwwwwwwwrrRRRRRRR
+0
+4
+2.0
+0.95652

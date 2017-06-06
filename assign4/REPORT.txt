@@ -1,0 +1,9 @@
+1. No collaboration.
+
+2. Yes.
+
+3. N/A
+
+4. Revisting n-queens was interesting, I had last worked on it in data stuctures. I probably could have made this more fficient by checking for diagonal correctness during the permutations.
+
+5. See output.txt for the outputs requested in parts 1-4. See Part5.txt for timing table and synchronization scheme.

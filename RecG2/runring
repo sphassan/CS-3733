@@ -1,0 +1,3 @@
+#!/bin/csh
+setenv CLASSPATH .:/home/srobbins/jars/ring/Ring.jar:/home/srobbins/jars/ring/Jeli.jar:
+java -mx64m RingDriver

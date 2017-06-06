@@ -1,0 +1,14 @@
+fd=open("infile",O_RDONLY);
+child1 = fork();
+pthread_create(&tid1,null,firstThread,null);
+if (child1) {
+pthread_create(&tid2,null,firstThread,null);
+pthread_create(&tid3,null,secondThread,null);
+pthread_detach(tid3);
+pthread_join(tid1,null);
+}
+else {
+pthread_create(&tid2,null,thirdThread,null);
+total += read(fd,buf+total,3);
+close(fd);
+}

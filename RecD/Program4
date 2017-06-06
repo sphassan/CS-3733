@@ -1,0 +1,11 @@
+fd0 = open("outfile",wrflags,0777);
+child1=fork();
+if (child1) {
+write(fd0,"ab",2);
+write(fd0,"cd",2);
+}
+else {
+write(fd0,"AB",2);
+write(fd0,"CD",2);
+}
+close(fd0);

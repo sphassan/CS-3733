@@ -1,0 +1,377 @@
+1. No colloboration.
+
+2. I think I did everything right and all testing done with the applet seems to agree 
+
+3. N/A
+
+4. Handling preemption in PSJF was the most challenging portion.
+
+5. Test output follows. After test output are .* stats.
+
+Quiz 4 - Test 1
+assign1 3 8 7 3 6 3 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 8 7 3 6 3 2
+
+FCFS
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwwwrRR
+0 9 4.5 0.95000
+
+SJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwwwrrrrrRR
+6 5 5.5 0.79167
+
+PSJF
+rrrrrrRRRrrRRRRRwwwwwwwRRR
+RRRRRRwwwRR
+8 0 4.0 0.73077
+
+RR
+RRRrrrRRRrrrRRwwwwwwwRRR
+rrrRRRrrrRRRwwwRR
+6 6 6.0 0.79167
+
+Quiz 4 - Test 2
+assign1 3 8 7 3 6 7 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 8 7 3 6 7 2
+
+FCFS
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwwwwwwwRR
+0 8 4.0 0.82609
+
+SJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwwwwwwwrRR
+6 1 3.5 0.79167
+
+PSJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwwwwwwwrRR
+6 1 3.5 0.79167
+
+RR
+RRRrrrRRRrrrRRwwwwwwwRRR
+rrrRRRrrrRRRwwwwwwwRR
+6 6 6.0 0.79167
+
+Quiz 4 - Test 3
+assign1 4 8 7 3 6 1 2
+Assignment 1 program was written by Sean Hassan
+inputs: 4 8 7 3 6 1 2
+
+FCFS
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwrrrRR
+0 11 5.5 0.95000
+
+SJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwrrrrrrrRR
+6 7 6.5 0.79167
+
+PSJF
+rrrrrrRrrRRRRRRRwwwwwwwRRR
+RRRRRRwRR
+8 0 4.0 0.73077
+
+RR
+RRRRrrrrRRRRwwwwwwwRRR
+rrrrRRRRrrrrRRwRR
+4 8 6.0 0.86364
+
+Quiz 4 - Test 4
+assign1 3 3 3 4 2 1 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 3 3 4 2 1 2
+
+FCFS
+RRRwwwRRRR
+rrrRRwrrrrRR
+0 7 3.5 0.91667
+
+SJF
+rrRRRwwwRRRR
+RRwrrRR
+2 2 2.0 0.91667
+
+PSJF
+rrRRRwwwRRRR
+RRwrrRR
+2 2 2.0 0.91667
+
+RR
+RRRwwwRRRrrR
+rrrRRwrrrRR
+2 6 4.0 0.91667
+
+Quiz 4 - Test 5
+assign1 3 3 2 3 2 1 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 3 2 3 2 1 2
+
+FCFS
+RRRwwRRR
+rrrRRwrrRR
+0 5 2.5 1.00000
+
+SJF
+rrRRRwwRRR
+RRwrrRR
+2 2 2.0 1.00000
+
+PSJF
+rrRRRwwRRR
+RRwrrRR
+2 2 2.0 1.00000
+
+RR
+RRRwwRRR
+rrrRRwrrRR
+0 5 2.5 1.00000
+
+Quiz 4 - Test 6
+assign1 3 5 2 5 4 1 1
+Assignment 1 program was written by Sean Hassan
+inputs: 3 5 2 5 4 1 1
+
+FCFS
+RRRRRwwrrRRRRR
+rrrrrRRRRwrrrrR
+2 9 5.5 1.00000
+
+SJF
+rrrrRRRRRwwRRRRR
+RRRRwrrrrR
+4 4 4.0 0.93750
+
+PSJF
+rrrrRrRRRRwwRRRRR
+RRRRwR
+5 0 2.5 0.88235
+
+RR
+RRRrrrRRwwRRRrRR
+rrrRRRrrRwrrrR
+4 8 6.0 0.93750
+
+Quiz 4 - Test 7
+assign1 3 4 1 7 3 7 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 4 1 7 3 7 2
+
+FCFS
+RRRRwrrRRRRRRR
+rrrrRRRwwwwwwwRR
+2 4 3.0 1.00000
+
+SJF
+rrrRRRRwRRRRRRR
+RRRwwwwwwwrrrrrRR
+3 5 4.0 0.94118
+
+PSJF
+rrrRRRRwRRrrRRRRR
+RRRwwwwwwwRR
+5 0 2.5 0.94118
+
+RR
+RRRrrrRwRRRRRRrrR
+rrrRRRwwwwwwwrRR
+5 4 4.5 0.94118
+
+Quiz 4 - Test 8
+assign1 3 4 2 5 3 2 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 4 2 5 3 2 2
+
+FCFS
+RRRRwwrRRRRR
+rrrrRRRwwrrrRR
+1 7 4.0 1.00000
+
+SJF
+rrrRRRRwwRRRRR
+RRRwwrrRR
+3 2 2.5 1.00000
+
+PSJF
+rrrRRRRwwRRRRR
+RRRwwrrRR
+3 2 2.5 1.00000
+
+RR
+RRRrrrRwwrRRRRR
+rrrRRRwwRR
+4 3 3.5 0.93333
+
+Quiz 4 - Test 9
+assign1 3 3 5 5 2 3 5
+Assignment 1 program was written by Sean Hassan
+inputs: 3 3 5 5 2 3 5
+
+FCFS
+RRRwwwwwRRRRR
+rrrRRwwwrrrrrRRRRR
+0 8 4.0 0.83333
+
+SJF
+rrRRRwwwwwRRRRR
+RRwwwRRRRR
+2 0 1.0 1.00000
+
+PSJF
+rrRRRwwwwwRRRRR
+RRwwwRRRRR
+2 0 1.0 1.00000
+
+RR
+RRRwwwwwRRRrrrRR
+rrrRRwwwrrrRRRrrRR
+3 8 5.5 0.83333
+
+Quiz 4 - Test 10
+assign1 3 1 1 4 1 1 1
+Assignment 1 program was written by Sean Hassan
+inputs: 3 1 1 4 1 1 1
+
+FCFS
+RwRRRR
+rRwrrrR
+0 4 2.0 1.00000
+
+SJF
+RwRRRR
+rRwrrrR
+0 4 2.0 1.00000
+
+PSJF
+RwRrRRR
+rRwR
+1 1 1.0 1.00000
+
+RR
+RwRRRrR
+rRwrrR
+1 3 2.0 1.00000
+
+Quiz 4 - Test 11
+assign1 3 1 1 1 1 1 1
+Assignment 1 program was written by Sean Hassan
+inputs: 3 1 1 1 1 1 1
+
+FCFS
+RwR
+rRwR
+0 1 0.5 1.00000
+
+SJF
+RwR
+rRwR
+0 1 0.5 1.00000
+
+PSJF
+RwR
+rRwR
+0 1 0.5 1.00000
+
+RR
+RwR
+rRwR
+0 1 0.5 1.00000
+
+Quiz 4 - Test 12
+assign1 3 1 3 1 3 1 1
+Assignment 1 program was written by Sean Hassan
+inputs: 3 1 3 1 3 1 1
+
+FCFS
+RwwwR
+rRRRwR
+0 1 0.5 1.00000
+
+SJF
+RwwwR
+rRRRwR
+0 1 0.5 1.00000
+
+PSJF
+RwwwR
+rRRRwR
+0 1 0.5 1.00000
+
+RR
+RwwwR
+rRRRwR
+0 1 0.5 1.00000
+
+Test 1
+assign1 3 8 7 3 6 3 2
+Assignment 1 program was written by Sean Hassan
+inputs: 3 8 7 3 6 3 2
+
+FCFS
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwwwrRR
+0 9 4.5 0.95000
+
+SJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwwwrrrrrRR
+6 5 5.5 0.79167
+
+PSJF
+rrrrrrRRRrrRRRRRwwwwwwwRRR
+RRRRRRwwwRR
+8 0 4.0 0.73077
+
+RR
+RRRrrrRRRrrrRRwwwwwwwRRR
+rrrRRRrrrRRRwwwRR
+6 6 6.0 0.79167
+
+Test 3
+assign1 4 8 7 3 6 1 2
+Assignment 1 program was written by Sean Hassan
+inputs: 4 8 7 3 6 1 2
+
+FCFS
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwrrrRR
+0 11 5.5 0.95000
+
+SJF
+rrrrrrRRRRRRRRwwwwwwwRRR
+RRRRRRwrrrrrrrRR
+6 7 6.5 0.79167
+
+PSJF
+rrrrrrRrrRRRRRRRwwwwwwwRRR
+RRRRRRwRR
+8 0 4.0 0.73077
+
+RR
+RRRRrrrrRRRRwwwwwwwRRR
+rrrrRRRRrrrrRRwRR
+4 8 6.0 0.86364
+
+*.all stats to follow.
+
+-rw-r--r-- 1 tqs485 students 44344515 Feb  2 13:49 fcfs.all
+-rw-r--r-- 1 tqs485 students 42267264 Feb  2 13:49 psjf.all
+-rw-r--r-- 1 tqs485 students 46409194 Feb  2 13:49 rr.all
+-rw-r--r-- 1 tqs485 students 43243799 Feb  2 13:49 sjf.all
+
+  2000001   2000003  44344515 fcfs.all
+  2000001   2000003  42267264 psjf.all
+  2000001   2000003  46409194 rr.all
+  2000001   2000003  43243799 sjf.all
+  8000004   8000012 176264772 total
+
+4998a59f278711bc6244f4182714e848  fcfs.all
+81c50dfa04e6d93fbb367d214dde2f2f  psjf.all
+3f2fe349082f661d430ac6dacff1bbce  rr.all
+c703316a8dc5a0f4ef4e1e546991a766  sjf.all
